@@ -1,0 +1,1311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    background-color: #152030;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;  
+    padding-top: 50px;
+}
+.active {
+    background-color: #2991D6;
+    border-radius: 3px;
+}
+
+.right li {
+    padding: 0 10px;
+}
+
+.right li a {
+    font-size: 20px;
+}
+
+.right li a:hover {
+    background-color: #2991D6;
+    border-radius: 3px;
+}
+
+.brand-logo {
+    width: 15%;
+    height: 85px;
+    margin-left: 100px;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .brand-logo {
+        width: 150px;
+        height: 70px;
+        margin: 0;
+    }
+  }
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .brand-logo {
+        width: 200px;
+    }
+}
+
+/* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .brand-logo {
+        width: 200px;
+    }
+}
+
+/* Banner */
+.slider ul  {
+    height: 798px !important;
+} 
+.slider .slides li .caption {
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 70%;
+}
+
+.banner-sliders {
+    z-index: -1 !important;
+    height: 800px !important;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .banner-sliders {
+        height: 500px !important;
+    }
+    .slider ul {
+        height: 500px !important;
+    }
+    .slider .slides li .caption {
+        color: #fff;
+        position: absolute;
+        top: 65%;
+        left: 15%;
+        width: 70%;
+    }
+    .caption h3{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .caption h5 {
+        font-size: 18px;
+    }
+    .zero-h3 {
+        text-align: center;
+    }
+} 
+
+
+/* After Banner */
+.first-pic {
+    width: 955px;
+    height: 600px;
+}
+.sec-pic {
+    width: 948px;
+    height: 600px;
+}
+.images {
+    display: flex;
+    justify-content: start;
+}
+
+
+.sec-pic {
+    object-fit: none;
+    object-position: right;
+}
+.sec-div {
+    position: relative;
+}
+.para {
+    position: absolute;
+    top: 110px;
+    width: 500px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.fir-div {
+    position: relative;
+}
+.first-para {
+    position: absolute;
+    top: 110px;
+    width: 500px;
+    padding-left: 100px;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .images {
+        flex-wrap: wrap;
+    }
+    .both-pic {
+        width: 375px;
+        height: 400px;
+    }
+    .first-pic {
+        object-fit: none;
+        object-position: left;
+    }
+    .sec-pic {
+        object-fit: none;
+        object-position: right;
+    }
+    .first-para {
+        position: absolute;
+        font-size: 20px;
+        top: 60px;
+        width: auto;
+    }
+    .para {
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        width: 350px;
+        font-size: 15px;
+    }
+  }
+  /* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .images {
+        flex-wrap: wrap;
+    }
+    .both-pic {
+        width: 414px;
+        height: 400px;
+    }
+    .first-pic {
+        object-fit: none;
+        object-position: left;
+    }
+    .sec-pic {
+        object-fit: none;
+        object-position: right;
+    }
+    .first-para {
+        position: absolute;
+        font-size: 20px;
+        top: 60px;
+        width: auto;
+    }
+    .para {
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        width: 350px;
+        font-size: 15px;
+    }
+  }
+/* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .images {
+        flex-wrap: wrap;
+    }
+    .both-pic {
+        width: 100%;
+        height: 400px;
+    }
+    .first-pic {
+        object-fit: none;
+        object-position: left;
+    }
+    .sec-pic {
+        object-fit: none;
+        object-position: right;
+    }
+    .first-para {
+        position: absolute;
+        font-size: 20px;
+        top: 60px;
+        width: auto;
+    }
+    .para {
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        width: 350px;
+        font-size: 15px;
+    }
+}
+
+/* 3 items */
+.card {
+    margin-top: 50px;
+    width: 400px;
+    left: 120px;
+    height: 508px;
+    background-color: #152030;
+}
+
+.card-image img {
+    width: 5006px;
+    height: 300px;
+}
+
+.headers {
+    letter-spacing: 3px;
+}
+
+.card-content {
+    height: 189px;
+}
+
+.card-content p {
+    color: #626262;
+    font-size: 15px;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .card {
+        width: 300px;
+        left: 20px;
+        margin: 60px 0;
+    }
+    .card-content p {
+        font-size: 15px;
+    }
+}
+ /* Iphone 6/7/8 Plus */
+ @media only screen and (min-width: 400px) and (max-width: 414px) {
+    .card {
+        width: 300px;
+        left: 20px;
+        margin: 60px 0;
+    }
+    .card-content p {
+        font-size: 15px;
+    }
+ }
+
+.card:hover {
+    opacity: 0.2;
+}
+
+/* Map */
+.map {
+    text-align: center;
+    margin: 300px 0;
+}
+
+.map p {
+    color: #626262;
+}
+
+.map button {
+    margin-top: 50px;
+    background-color: transparent;
+    border: 1px solid #2F9297;
+    height: 50px;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .map img {
+        width: 300px;
+    }
+}
+
+ /* Iphone 6/7/8 Plus */
+ @media only screen and (min-width: 400px) and (max-width: 414px) {
+    .map img {
+        width: 300px;
+    }
+ }
+
+ /* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .map img {
+        width: 300px;
+    }
+}
+
+/* 4 Boxes */
+.boxes {
+    width: 256px;
+    height: 247px;
+    border: 1px solid #B59A5A;
+}
+
+.boxes-desc {
+    color: #a8a8a8;
+    padding-top: 10px;
+}
+
+.boxes-title {
+    margin-top: 100px;
+    color: #a8a8a8;
+}
+
+.boxes-btn {
+    background-color: transparent;
+    border: 1px solid #a8a8a8;
+    height: 50px;
+}
+
+.boxes-btn:hover {
+    background-color: #a8a8a8;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .boxes {
+        margin: 20px 0;
+        margin-left: 20px;
+    }
+    .boxes-title {
+        margin-left: 25px;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .boxes {
+        margin: 20px 0;
+        margin-left: 40px;
+    }
+    .boxes-title {
+        margin-left: 50px;
+    }
+}
+
+/* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .boxes {
+        margin: 20px 0;
+        margin-left: 45px;
+    }
+    .boxes-title {
+        margin-left: 200px;
+    }
+}
+
+/* Countries and Companies index page */
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .swiper-slide img {
+      width: 100px;
+      height: 100px;
+  }
+  .swiper-slide h6 {
+    padding-top: 100px;
+    color: #a8a8a8;
+}
+
+
+  /* Footer */
+  .page-footer {
+      background-image: url(./images/cloud.jpg);
+      background-size: cover;
+  }
+
+  .footer-container {
+      padding: 30px 0;
+  }
+
+  .footer-aboutus-p {
+      width: 300px;
+  }
+
+  .footer-adress-p {
+      width: 200px;
+  }
+
+  .footer-p {
+      padding-top: 25px;
+      color: #a8a8a8;
+  }
+
+  .two-links {
+      color: #a8a8a8;
+  }
+
+  /* About Page Section */
+
+  /* Banner */
+  .about-banner {
+      position: relative;
+  }
+  .banner-img {
+      width: 100%;
+      height: 350px;
+  }
+  .about-banner h5 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: rgba(0,0,0,.3);;
+  }
+
+  .about-banner span {
+      position: absolute;
+      top: 70%;
+      left: 49%;
+      color: rgba(0,0,0,.3);;
+  }
+  .about-banner a {
+      color: inherit;
+  }
+
+  .about-banner a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+  .arr {
+      padding: 0 15px;
+  }
+
+  .plus {
+      position: absolute;
+      bottom: -42;
+      left: 50%;
+  }
+
+    /* Iphone X */
+  @media only screen and (max-width: 375px) { 
+    .about-banner h5 {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        color: rgba(0,0,0,.3);;
+    }
+    .about-banner span {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        color: rgba(0,0,0,.3);;
+    }
+    .plus {
+        position: absolute;
+        bottom: -42;
+        left: 40%;  
+    }
+  }
+
+  /* Iphone 6/7/8 Plus */
+    @media only screen and (min-width: 400px) and (max-width: 414px)  {
+        .about-banner h5 {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            color: rgba(0,0,0,.3);;
+        }
+        .about-banner span {
+            position: absolute;
+            top: 70%;
+            left: 35%;
+            color: rgba(0,0,0,.3);;
+        }
+        .plus {
+            position: absolute;
+            bottom: -42;
+            left: 40%;  
+        }
+    }
+  
+
+  .content-about {
+      position: relative;
+      height: 600px;
+  }
+
+  .content-about img {
+    position: absolute;
+    top: 100px;
+    left: 565px;
+}
+
+.content-about h3 {
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    color: #B59A5A;
+}
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .content-about {
+        position: relative;
+        width: 100%;
+    }
+    .content-about img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .content-about h3 {
+        position: absolute;
+        top: 165px;
+        left: 100px;
+        color: #B59A5A;
+        font-size: 22px;
+        width: 240px;
+    }
+}
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .content-about {
+        position: relative;
+        width: 100%;
+    }
+    .content-about img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .content-about h3 {
+        position: absolute;
+        top: 165px;
+        left: 100px;
+        color: #B59A5A;
+        font-size: 22px;
+        width: 240px;
+    }
+  }
+
+  /* IPAD */
+  @media only screen and (min-width: 700px) and (max-width: 768px) {
+    .content-about {
+        position: relative;
+        width: 100%;
+    }
+    .content-about img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .content-about h3 {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        color: #B59A5A;
+        font-size: 27px;
+        width: auto;
+    }
+}
+
+/* 3 Taps */
+.three-taps {
+    margin-top: 300px;
+}
+#tabs-swipe-demo  {
+    width: 400px;
+    background-color: transparent;
+}
+
+
+.swipers {
+    width: auto;
+    margin-left: 35%;
+    margin-top: 20px;
+    color: #a8a8a8;
+}
+
+.div {
+    display: flex;
+}
+
+.div span {
+    padding: 50px 30px;
+    width: 500px;
+}
+
+.tabs .indicator {
+    background-color: #1976d2;
+}
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    #tabs-swipe-demo {
+        width: 300px !important;
+    }
+    .three-taps {
+        font-size: 12px;
+    }
+    .swipers {
+        margin-left: 0;
+    }
+    .sec-span {
+        padding-top: 20px;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    #tabs-swipe-demo {
+        width: 300px !important;
+    }
+    .three-taps {
+        font-size: 12px;
+    }
+    .swipers {
+        margin-left: 0;
+    }
+    .sec-span {
+        padding-top: 20px;
+    }
+}
+
+/* After 3 tabs */
+.after-tabs {
+    width: 100%;
+    height: 300px;
+    background-color: #000D21;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.after-tabs-content {
+    padding-top: 80px;
+}
+
+.after-tabs-content span {
+    color: #ccb47a;
+    font-size: 42px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.after-tabs-content .btn {
+    margin-top: 40px;
+    border: 1px solid #2991D6;
+    color: #2991D6;
+    background-color: transparent;
+    height: 50px;
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .after-tabs-content span {
+        font-size: 20px;
+    }
+}
+
+/* Service Page */
+.containing {
+    position: relative;
+}
+
+.txt-header {
+    position: absolute;
+    top: 50px;
+    left: 32%;
+    padding-top: 100px;
+    color: #ccb47a;
+    letter-spacing: 7px;
+}
+
+.containerz {
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+}
+
+.service-img img {
+    width: 586px;
+    height: 784px;
+}
+.service-text {
+    padding-left: 50px;
+}
+.service-text h4 {
+    color: white;
+    letter-spacing: 10px;
+}
+
+.service-text ul,
+.service-text ul li {
+    color: #737E86;
+    line-height: 30px;
+    list-style: disc outside;
+}
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .txt-header {
+        font-size: 15px;
+        padding-right: 50px;
+        line-height: 25px;
+    }
+    .containerz {
+        display: block;
+    }
+    .service-img img {
+        width: 375px;
+        height: auto;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .txt-header {
+        font-size: 15px;
+        padding-right: 50px;
+        line-height: 25px;
+    }
+    .containerz {
+        display: block;
+    }
+    .service-img img {
+        width: 375px;
+        height: auto;
+    }
+}
+
+/* Market Sectors service-page */
+.market-sectors {
+    margin-top: 200px;
+    width: 100%;
+    height: 761px;
+}
+
+.market-header {
+    font-size: 27px;
+    color: white;
+    letter-spacing: 1rem;
+}
+
+.market-para {
+    color: #737E86;
+    width: 600px;
+    line-height: 2rem;
+    padding-top: 20px;
+}
+
+.market-img-h6 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.market-img-h6 img {
+    width: 30px;
+    height: 40px;
+}
+
+.beside {
+    padding-left: 40px;
+}
+.beside p {
+    width: 480px;
+    color: #737E86;
+}
+
+.beside h6 {
+    font-size: 25px;
+    color: #3b4044;
+}
+
+.service-image img {
+    width: 588px;
+    height: 440px;
+}
+
+.both-sides {
+    display: flex;
+    justify-content: space-between;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .both-sides {
+        display: flex;
+        flex-direction: column;
+    }
+    .service-image img {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .market-para  {
+        width: auto;
+    }
+    .beside p {
+        width: auto;
+    }
+    .footrs {
+        margin-top: 550px;
+    }
+}
+
+
+/* How We Work Page */
+.tt {
+    left: 22%;
+}
+
+.how-img img {
+    height: 391px;
+    width: 587px;
+}
+
+.two-work {
+    display: flex;
+}
+
+.how-desc, .tit-des {
+    padding-left: 30px;
+}
+
+.h4-tit {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.arrow-work {
+    padding-top: 15px;
+}
+
+.how-tit {
+    font-size: 20px;
+    color: #eff0f0;
+}
+
+.cont-two {
+    margin-top: 100px;
+}
+.fir-ima img{
+    width: 588px;
+    height: auto;
+}
+.sec-ima img{
+    margin-left: 20px;
+    width: 588px;
+    height: auto;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #3f4c5f;
+    margin: 100px 0;
+}
+
+.co {
+    display: flex;
+}
+
+.tit-des p {
+    width: 400px;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .two-work , .co {
+        display: block;
+    }
+    .sec-ima {
+       padding: 20px 0;
+    }
+    .sec-ima img{
+        margin: 0;
+     }
+    .tit-des p {
+        width: 272px;
+    }
+    .fir-ima , .sec-ima {
+        width: 0;
+    }
+    .fir-ima img , .sec-ima img {
+        width: 350px;
+    }
+    .how-img img {
+        width: 374px;
+        height: auto;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .two-work , .co {
+        display: block;
+    }
+    .sec-ima {
+       padding: 20px 0;
+    }
+    .sec-ima img{
+        margin: 0;
+     }
+    .tit-des p {
+        width: 272px;
+    }
+    .fir-ima , .sec-ima {
+        width: 0;
+    }
+    .fir-ima img , .sec-ima img {
+        width: 350px;
+    }
+    .how-img img {
+        width: 374px;
+        height: auto;
+    }
+}
+
+/* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .two-work , .co {
+        display: block;
+    }
+    .sec-ima {
+       padding: 20px 0;
+    }
+    .sec-ima img{
+        margin: 0;
+     }
+    .tit-des p {
+        width: 272px;
+    }
+    .fir-ima , .sec-ima {
+        width: 0;
+    }
+    .fir-ima img , .sec-ima img {
+        width: 350px;
+    }
+    .how-img img {
+        width: 374px;
+        height: auto;
+    }
+}
+
+
+.img-part {
+    width: 100%;
+}
+.img-part img {
+    width: 588px;
+    height: auto;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .sec-part {
+        display: block;
+    }
+    .img-part img {
+        width: 350px;
+    }
+}
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .sec-part {
+        display: block;
+    }
+    .img-part img {
+        width: 350px;
+    }
+}
+
+.z {
+    margin-top: 100px;
+}
+.arr-img img {
+    width: 588px;
+    height: auto;
+}
+
+.txt-desc {
+    width: auto;
+    color: #626262;
+}
+.txt-arr-img {
+    display: flex;
+    justify-content: space-between;
+}
+.txt-title {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.ar-tit {
+    display: flex;
+    margin-top: 50px;
+    width: 550px;
+}
+.tit-desc {
+    padding-left: 55px;
+}
+.sub-tit {
+    letter-spacing: 3px;
+    color: #444444;
+}
+.tit-desc p{
+    color: #626262;
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .txt-arr-img {
+        display: block;
+    }
+    .ar-tit {
+        width: auto;
+    }
+    .arr-img img {
+        width: 340px;
+        height: auto;
+    }
+}
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .txt-arr-img {
+        display: block;
+    }
+    .ar-tit {
+        width: auto;
+    }
+    .arr-img img {
+        width: 340px;
+        height: auto;
+        margin: 25px 0;
+    }
+}
+
+/* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .txt-arr-img {
+        display: block;
+    }
+    .ar-tit {
+        width: auto;
+    }
+    .arr-img img {
+        width: 340px;
+        height: auto;
+        margin: 25px 0;
+    }
+}
+
+/* Gallery Page */
+.all-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.all-images img {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+
+/* Contact Page */
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .all-images img {
+        width: 355px;
+        height: auto;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .all-images img {
+        width: 355px;
+        height: auto;
+    }
+}
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .google-map iframe{
+        width: 340px !important;
+    }
+    .map-sides {
+        display: block !important;
+    }
+    .map-parag {
+        width: auto !important;
+    }
+    .map-nums {
+        margin-left: 0 !important;
+    }
+    .contact-images {
+        display: block !important;
+    } .contact-left {
+        width: 100% !important;
+    }
+    .contact-right img{
+        width: 100% !important; 
+    }
+    .over {
+        position: absolute !important;
+        left: 13% !important;
+        top: 143px !important;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 400px) and (max-width: 414px) {
+    .google-map iframe{
+        width: 340px !important;
+    }
+    .map-sides {
+        display: block !important;
+    }
+    .map-parag {
+        width: auto !important;
+    }
+    .map-nums {
+        margin-left: 0 !important;
+    }
+    .contact-images {
+        display: block !important;
+    } .contact-left {
+        width: 100% !important;
+    }
+    .contact-right img{
+        width: 100% !important; 
+    }
+    .over {
+        position: absolute !important;
+        left: 13% !important;
+        top: 143px !important;
+    }
+    .footrs {
+        margin-top: 550px;
+    }
+}
+
+/* IPAD */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .google-map iframe{
+        width: 340px !important;
+    }
+    .map-sides {
+        display: block !important;
+    }
+    .map-parag {
+        width: auto !important;
+    }
+    .map-nums {
+        margin-left: 0 !important;
+    }
+    .contact-images {
+        display: block !important;
+    } .contact-left {
+        width: 100% !important;
+    }
+    .contact-right img{
+        width: 100% !important; 
+    }
+    .over {
+        position: absolute !important;
+        left: 13% !important;
+        top: 143px !important;
+    }
+    .footrs {
+        margin-top: 550px;
+    }
+}
+
+.google-map {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.google-map iframe {
+    width: 1198px;
+    height: 440px;
+}
+
+.map-tit {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.map-parag {
+    color: #444444;
+    width: 590px;
+}
+
+.map-sides , .arrr-des{
+    display: flex;
+}
+
+.arrr-des {
+    margin-top: 30px;
+}
+
+.map-address {
+    padding-left: 30px;
+}
+
+.map-address h6 {
+    color: #737E86;
+    letter-spacing: 2px;
+}
+
+.map-address ul li , .map-address p{
+    color: #444444;
+}
+
+.map-nums {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.map-nums ul li {
+    padding: 10px 0 20px 10px;
+}
+.map-nums ul  {
+    background-color: #2991D6;
+    width: 300px;
+}
+.map-nums span {
+    color: white;
+}
+.map-nums i {
+    padding-right: 25px;
+}
+
+.contact-images {
+    margin-top: 100px;
+    height: 503px;
+    width: 100%;
+    display: flex;
+}
+.contact-left {
+    background-color: #816E4E;
+    width: 50%;
+    height: 503px;
+}
+
+.contact-right img {
+    height: 503px;
+    width: fit-content;
+}
+
+.contact-details {
+    position: relative;
+}
+
+.over {
+    position: absolute;
+    left: 40%;
+    top: 70px;
+}
+
